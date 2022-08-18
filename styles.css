@@ -1,0 +1,209 @@
+body {
+  background: #e5e5e5;
+  width: 375px;
+}
+
+.overall {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-bottom-left-radius: 80px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 20px;
+  width: 60px;
+}
+
+.main {
+  height: 500px;
+  margin-top: 800px;
+}
+
+.header,
+.main {
+  flex: 1 100%;
+  margin: 58px 24px 0px 24px;
+}
+
+.logo-div {
+  top: 10px;
+  left: 12px;
+  display: inline-block;
+}
+
+.logo{
+  width: 76px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon {
+  height: 0px;
+  width: 16.000000000000075px;
+  left: 4px;
+  top: 12px;
+  border-radius: 0px;
+  margin-left: 102px;
+  display: inline-flex;
+  color: #6070ff;
+}
+
+.text,
+.description {
+  width: 300px;
+  margin: 0;
+}
+
+.text {
+  margin: 30px 0 0 0;
+  height: 150px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.description {
+  height: 146px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.follow {
+  margin: 20px 0 0 0;
+  width: 117px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.list {
+  height: 30px;
+  width: 327px;
+  align-items: flex-start;
+}
+
+.list-item {
+  flex: 1 10fr;
+  width: 20px;
+}
+
+.fa {
+  color: #505f79;
+}
+
+.fa:hover {
+  color: #505f795c;
+}
+
+.ellipse {
+  position: absolute;
+  width: 105px;
+  height: 88px;
+  left: 275px;
+  top: 152.24px;
+  transform: rotate(-10deg);
+}
+
+.pie-shape {
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 161.47px;
+}
+
+.small-rectangle {
+  position: absolute;
+  width: 26.46px;
+  height: 20 px;
+  left: 127.18px;
+  top: 151.59px;
+}
+
+.small-circle {
+  position: absolute;
+  width: 11px;
+  height: 25px;
+  left: 130px;
+  top: 155.81px;
+}
+
+.images {
+    display: none;
+}
+
+.middle {
+    left: 250px;
+  top: 330px;
+}
+
+.bottom {
+    top: 550px;
+    left: 250px;
+}
+
+.semi {
+    top: 553px;
+    transform:rotate(-20deg);
+}
+
+.semip {
+    left: 180px;
+    top: 650px;
+    transform:rotate(50deg);
+}
+
+.semipp {
+    left: 145px;
+    top: 640px;
+    transform:rotate(40deg);
+    width: 70px;
+}
+
+
+[class*="col-"] {
+  width: 100%;
+}
