@@ -7,8 +7,8 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   background: #ffffff;
   border-bottom-left-radius: 80px;
 }
