@@ -43,7 +43,7 @@ body {
 .logo {
   width: 76px;
   height: 20px;
-  font-family: "Poppins" , sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -77,7 +77,7 @@ body {
 .text {
   margin: 30px 0 0 0;
   height: 150px;
-  font-family: "Poppins" , sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -93,7 +93,7 @@ body {
 .description {
   height: 146px;
   margin-top: 20px;
-  font-family: "Poppins" , sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -108,7 +108,7 @@ body {
   margin: 20px 0 0 0;
   width: 117px;
   height: 24px;
-  font-family: "Poppins" , sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -203,8 +203,6 @@ body {
   width: 70px;
 }
 
-
 [class*="col-"] {
   width: 100%;
 }
-
