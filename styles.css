@@ -9,7 +9,7 @@ body {
   height: 718px;
   left: 0;
   top: 0;
-  background: #ffffff;
+  background: #fff;
   border-bottom-left-radius: 80px;
 }
 
@@ -31,7 +31,7 @@ body {
 .header,
 .main {
   flex: 1 100%;
-  margin: 58px 24px 0px 24px;
+  margin: 58px 24px 0 24px;
 }
 
 .logo-div {
@@ -40,10 +40,10 @@ body {
   display: inline-block;
 }
 
-.logo{
+.logo {
   width: 76px;
   height: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins" , sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -58,11 +58,11 @@ body {
 }
 
 .icon {
-  height: 0px;
+  height: 0;
   width: 16.000000000000075px;
   left: 4px;
   top: 12px;
-  border-radius: 0px;
+  border-radius: 0;
   margin-left: 102px;
   display: inline-flex;
   color: #6070ff;
