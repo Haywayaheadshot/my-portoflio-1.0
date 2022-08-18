@@ -1,10 +1,11 @@
 body {
   background: #e5e5e5;
   width: 375px;
-  position: relative
+  position: relative;
 }
 
-html, body {
+html, 
+body {
   overflow-x: hidden;
 }
 
