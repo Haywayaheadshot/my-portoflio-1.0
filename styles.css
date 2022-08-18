@@ -77,7 +77,7 @@ body {
 .text {
   margin: 30px 0 0 0;
   height: 150px;
-  font-family: "Poppins";
+  font-family: "Poppins" , sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -93,7 +93,7 @@ body {
 .description {
   height: 146px;
   margin-top: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins" , sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -108,7 +108,7 @@ body {
   margin: 20px 0 0 0;
   width: 117px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins" , sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -172,35 +172,35 @@ body {
 }
 
 .images {
-    display: none;
+  display: none;
 }
 
 .middle {
-    left: 250px;
+  left: 250px;
   top: 330px;
 }
 
 .bottom {
-    top: 550px;
-    left: 250px;
+  top: 550px;
+  left: 250px;
 }
 
 .semi {
-    top: 553px;
-    transform:rotate(-20deg);
+  top: 553px;
+  transform: rotate(-20deg);
 }
 
 .semip {
-    left: 180px;
-    top: 650px;
-    transform:rotate(50deg);
+  left: 180px;
+  top: 650px;
+  transform: rotate(50deg);
 }
 
 .semipp {
-    left: 145px;
-    top: 640px;
-    transform:rotate(40deg);
-    width: 70px;
+  left: 145px;
+  top: 640px;
+  transform: rotate(40deg);
+  width: 70px;
 }
 
 
@@ -208,7 +208,3 @@ body {
   width: 100%;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-  font-family: "my_original_font_family_name", sans-serif !important;
-}
