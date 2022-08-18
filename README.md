@@ -7,7 +7,6 @@
 
 - HTML and CSS
 - Figma
-- Node.js
 
 
 ## Getting Started
