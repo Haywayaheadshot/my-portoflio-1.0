@@ -4,11 +4,6 @@ body {
   position: relative;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 .overall {
   position: absolute;
   width: 375px;
