@@ -207,3 +207,8 @@ body {
 [class*="col-"] {
   width: 100%;
 }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "my_original_font_family_name", sans-serif !important;
+}
