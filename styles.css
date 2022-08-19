@@ -211,7 +211,7 @@ body {
   margin: 832px 24px 0 24px;
   width: 327px;
   height: 552px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   display: flex;
@@ -339,7 +339,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .footer-button:hover {
@@ -353,7 +353,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #396df2bc;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .page-two-text {
@@ -421,7 +421,6 @@ body {
   left: 250px;
   border: 1px solid #35355312;
   border-radius: 50%;
-  
 }
 
 .lang-list-div,
@@ -455,18 +454,17 @@ ul {
   top: -30px;
 }
 
-
 .page-five-footer-div {
   border-radius: 0;
   padding: 10px 0 0 0;
   border-bottom: 1px solid #dfe1e6;
-  background-color: #ffffff;
-  font-family: "Poppins";
+  background-color: #fff;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .page-six-div {
@@ -483,7 +481,7 @@ ul {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .contact-note {
@@ -522,7 +520,7 @@ ul {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   position: relative;
   left: 10px;
 }
@@ -536,7 +534,6 @@ ul {
 }
 
 .message:hover {
-  border: 2px solid #ebebff;
   max-width: 327px;
   height: 172px;
   margin: 10px 0 20px 0;
@@ -575,7 +572,6 @@ ul {
   position: relative;
   top: -125px;
   left: -1px;
-
 }
 
 .page-five-footer-options {
