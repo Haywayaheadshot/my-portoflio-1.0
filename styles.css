@@ -7,9 +7,8 @@
 
 .grid-item:nth-child(1) {
   border-bottom-left-radius: 80px;
-  height: 718px;
   display: flex;
-  background: url(images/header-shapes-mobile.svg);
+  background: url("images/header-shapes-mobile.svg");
   background-color: #fff;
 }
 
@@ -17,12 +16,11 @@
   display: flex;
   justify-content: space-between;
   height: 20px;
-  margin: 58px 20px 0 20px;
+  margin: 58px 24px 0 24px;
 }
 
-.logo-button {
+.logo-div {
   background-color: #fff;
-  border: 0;
 }
 
 .logo {
@@ -42,27 +40,13 @@
   color: #6070ff;
 }
 
-img {
-  display: flex;
+.fa-bars {
+  color: #6070ff;
 }
 
 .f-ec {
   display: flex;
   justify-content: space-between;
-}
-
-.landing-page-pie-shape {
-  margin: 60px 0 0 0;
-  padding-right: 80px;
-}
-
-.small-rectangle {
-  margin: 0 80px 0 0;
-  background-color: red;
-}
-
-.landing-page-main {
-  margin: 68px 20px 0 20px;
 }
 
 .landing-page-main-head {
@@ -72,6 +56,7 @@ img {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin: 128px 24px 0 24px;
 }
 
 .landing-page-main-body-text {
@@ -81,6 +66,7 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin: 12px 24px 0 24px;
 }
 
 .follow {
@@ -90,17 +76,21 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin: 10px 24px 0 24px;
 }
 
 .social-media-icon-container {
   display: flex;
 }
 
-.social-media-icon,
-.fa {
-  margin: 0 10px 0 0;
+.social-media-icon {
   color: #505f79;
   height: 20px;
+  margin: 10px 15px 136px 24px;
+}
+
+.social-media-icon-color {
+  color: #505f79;
 }
 
 .grid-item:nth-child(2),
@@ -239,23 +229,19 @@ img {
   text-align: initial;
 }
 
-.for-about-myself-only {
-  margin: 10px 24px 0 24px;
-}
-
-.resume {
-  margin: 10px 0 0 18.5px;
+.for-myself-social-media-icon {
+  margin: 0 0 -140px 0;
 }
 
 .lang-div {
   display: flex;
   justify-content: space-between;
   height: 30px;
-  margin: 50px 36px 0 36px;
+  margin: 50px 36px 0 30px;
 }
 
 .lang {
-  color: #000;
+  color: #000000;
   font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
@@ -280,7 +266,7 @@ img {
 }
 
 .js-css-html-logo {
-  padding: 12px 0 12px 0;
+  padding: 12px 0 12px 12px;
 }
 
 .html-css-round-button {
@@ -328,7 +314,7 @@ img {
 }
 
 .contact-note {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -349,7 +335,7 @@ img {
   font-size: 12px;
   line-height: 20px;
   display: block;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: 0 0 15px 0;
@@ -369,7 +355,7 @@ img {
 
 .message {
   height: 170px;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins";
 }
 
 .message::placeholder {
