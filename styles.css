@@ -255,7 +255,7 @@ img {
 }
 
 .lang {
-  color: #000000;
+  color: #000;
   font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
@@ -328,7 +328,7 @@ img {
 }
 
 .contact-note {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -349,7 +349,7 @@ img {
   font-size: 12px;
   line-height: 20px;
   display: block;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: 0 0 15px 0;
@@ -369,7 +369,7 @@ img {
 
 .message {
   height: 170px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif !important;
 }
 
 .message::placeholder {
@@ -382,14 +382,14 @@ img {
 }
 
 .for-contact-me-only {
-background-color: #6070ff;
+  background-color: #6070ff;
 }
 
 .footer-button :hover {
   background-color: #656ba299;
   border: 1px solid #6070ff;
   color: #fff;
-  }
+ }
 
 ul {
   list-style: none;
@@ -400,4 +400,3 @@ ul {
 [class*="col-"] {
   width: 100%;
 }
-
