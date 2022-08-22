@@ -380,20 +380,20 @@
 }
 
 .footer-button :enabled {
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   background: #fff;
   box-sizing: border-box;
 }
 
 .footer-button :disabled {
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
   box-sizing: border-box;
 }
 
 .footer-button :active {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
