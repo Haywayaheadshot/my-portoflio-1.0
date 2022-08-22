@@ -23,10 +23,13 @@
   background-color: #fff;
 }
 
+.font {
+  font-family: "Poppins", sans-serif !important;
+}
+
 .logo {
   width: 76px;
   height: 20px;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -50,7 +53,6 @@
 }
 
 .landing-page-main-head {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -61,7 +63,6 @@
 }
 
 .landing-page-main-body-text {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -71,7 +72,6 @@
 }
 
 .follow {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -118,7 +118,6 @@
 
 .grid-item-two-body-title {
   color: #172b4d;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -129,7 +128,6 @@
 
 .grid-item-two-body-subhead {
   color: #344563;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -146,7 +144,6 @@
 }
 
 .title-year {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -157,7 +154,6 @@
 
 .grid-item-two-body-text {
   color: #344563;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -179,7 +175,6 @@
   border-radius: 8px;
   color: #6070ff;
   border: 0;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -191,7 +186,6 @@
   border-radius: 10px;
   letter-spacing: 0.03em;
   height: 50px;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -219,7 +213,6 @@
 }
 
 .text-about-myself {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -243,7 +236,6 @@
 
 .lang {
   color: #000;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -277,7 +269,6 @@
 }
 
 .js-html-css-text-name {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -306,7 +297,6 @@
   padding: 103px 0 0 0;
   height: 100px;
   text-align: center;
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -315,7 +305,6 @@
 }
 
 .contact-note {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -330,7 +319,6 @@
 }
 
 .name-email {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -345,7 +333,6 @@
 }
 
 .name-email::placeholder {
-  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -356,7 +343,6 @@
 
 .message {
   height: 170px;
-  font-family: "Poppins", sans-serif !important;
 }
 
 .message::placeholder {
