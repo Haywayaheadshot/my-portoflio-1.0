@@ -373,9 +373,28 @@
 }
 
 .footer-button :hover {
-  background-color: #656ba299;
-  border: 1px solid #6070ff;
+  background: #6070ff;
   color: #fff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.footer-button :enabled {
+  border: 1px solid #7F8CFF;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.footer-button :disabled {
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.footer-button :active {
+  background: #2230D2;
+  border-radius: 8px;
 }
 
 ul {
