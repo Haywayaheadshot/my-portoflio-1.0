@@ -383,13 +383,11 @@
   border: 1px solid #7f8cff;
   border-radius: 8px;
   background: #fff;
-  box-sizing: border-box;
 }
 
 .footer-button :disabled {
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  box-sizing: border-box;
 }
 
 .footer-button :active {
