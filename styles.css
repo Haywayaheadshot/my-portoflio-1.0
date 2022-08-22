@@ -241,7 +241,7 @@
 }
 
 .lang {
-  color: #000000;
+  color: #000;
   font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 500;
@@ -314,7 +314,7 @@
 }
 
 .contact-note {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -335,7 +335,7 @@
   font-size: 12px;
   line-height: 20px;
   display: block;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: 0 0 15px 0;
@@ -355,7 +355,7 @@
 
 .message {
   height: 170px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif !important;
 }
 
 .message::placeholder {
