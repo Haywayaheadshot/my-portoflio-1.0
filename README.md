@@ -1,6 +1,6 @@
 # Mobile page set up for my portoflio
 
-> This project is about setting up a mobile phone app for my portfolio. It part of microverse the curriculum on how to build a mobile application.
+> Microvere day 3 solo project. This is to be submitted for code review.
 
 
 ## Built With
@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Setup
-- To clone the repository run this command git clone https://github.com/Haywayaheadshot/my-portoflio.git
+- To clone the repository run this command git clone https://github.com/BenMukebo/porfolio-set-up-and-mobile-firs.git
 
 
 ## Authors
