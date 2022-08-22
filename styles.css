@@ -8,7 +8,7 @@
 .grid-item:nth-child(1) {
   border-bottom-left-radius: 80px;
   display: flex;
-  background: url("images/header-shapes-mobile.svg");
+  background: url("images/header-shapes-mobile.svg") repeat center center;
   background-color: #fff;
 }
 
