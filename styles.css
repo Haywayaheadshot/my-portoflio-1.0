@@ -98,7 +98,7 @@
 }
 
 .fa:hover {
-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .social-media-icon-color {
@@ -756,5 +756,4 @@ ul {
   .fa:hover {
     transform: scale(1.5);
   }
-
 }
