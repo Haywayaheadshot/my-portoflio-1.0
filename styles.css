@@ -97,6 +97,10 @@
   margin: 10px 15px 136px 24px;
 }
 
+.fa:hover {
+transform: scale(1.5);
+}
+
 .social-media-icon-color {
   color: #505f79;
 }
@@ -748,4 +752,9 @@ ul {
   .line-container {
     display: none;
   }
+
+  .fa:hover {
+    transform: scale(1.5);
+  }
+
 }
