@@ -47,6 +47,7 @@
   display: flex;
   justify-content: flex-end;
   color: #6070ff;
+  width: fit-content;
 }
 
 .fa-bars {
@@ -441,10 +442,6 @@ ul {
     margin: 25px 155px 0 155px;
   }
 
-  .icon {
-    display: none;
-  }
-
   .nav-items-list {
     display: flex;
     justify-content: space-between;
@@ -541,8 +538,23 @@ ul {
     margin-right: 100px;
   }
 
-  .desktop-card-grid-item:nth-child(2) {
+  .desktop-card-using-flex-item:nth-child(1) {
+    margin-right: 22px;
+  }
+
+  .desktop-card-grid-item:nth-child(2),
+  .desktop-card-using-flex-item:nth-child(2) {
     margin: 30px 46px 0 -80px;
+  }
+
+  .desktop-card-using-flex-item:nth-child(2) {
+    margin-left: 50px;
+  }
+
+  .desktop-card-using-flex {
+    display: flex;
+    height: auto;
+    flex-direction: row-reverse;
   }
 
   .grid-item-two-body-title {
