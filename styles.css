@@ -815,6 +815,7 @@ ul {
 
   .js-css-html-logo:hover {
     transform: scale(1.5);
+    transform: rotate(360deg);
   }
 
   .js-html-css-text-name {
