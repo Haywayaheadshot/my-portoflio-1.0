@@ -405,6 +405,27 @@
   border-radius: 8px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  box-shadow: 0 0 5px 1px #2231d23b;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.55);
+  color: #2230d2;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -446,6 +467,19 @@ ul {
     margin: 25px 155px 0 155px;
   }
 
+  .logo {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  .logo:hover {
+    margin-left: 2px;
+    background-color: #2231d2c4;
+    color: #fff;
+  }
+
   .nav-items-list {
     display: flex;
     justify-content: space-between;
@@ -462,6 +496,10 @@ ul {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
   }
 
   .landing-page-main-head {
@@ -490,6 +528,24 @@ ul {
     line-height: 24px;
     color: #7f8cff;
     margin: 12px 260px 0 260px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  @keyframes left-to-right {
+    0% {
+      margin-left: 20px;
+    }
+
+    75% {
+      margin-left: -50px;
+    }
+
+    100% {
+      margin-left: -20px;
+    }
   }
 
   .social-media-icon-container {
@@ -611,6 +667,42 @@ ul {
     margin: 0 8px 0 0;
   }
 
+  .js-css-html-button-li:nth-child(1) {
+    animation-name: left-to-right;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-delay: 5s;
+  }
+
+  .js-css-html-button-li:nth-child(2) {
+    animation-name: left-to-right;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-delay: 5.5s;
+  }
+
+  .js-css-html-button-li:nth-child(3) {
+    animation-name: left-to-right;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-delay: 6s;
+  }
+
+  .js-css-html-button-li:nth-child(4) {
+    animation-name: left-to-right;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-delay: 6.5s;
+  }
+
   .html-css-js-button {
     background-color: #ebebff;
     border-radius: 8px;
@@ -621,6 +713,16 @@ ul {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+  }
+
+  .html-css-js-button:hover {
+    transform: scale(1.25);
+    background-color: #6070ff;
+    color: #ebebff;
   }
 
   .footer-button {
@@ -649,6 +751,17 @@ ul {
     margin-left: 142px;
     padding-left: 20px;
     width: 80%;
+  }
+
+  .about-myself-connect {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  .about-myself-connect:hover {
+    transform: scale(1.1);
   }
 
   .for-myself-social-media-icon {
@@ -694,6 +807,14 @@ ul {
   .js-css-html-logo {
     padding: 12px 0 12px 12px;
     display: block;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+  }
+
+  .js-css-html-logo:hover {
+    transform: scale(1.5);
   }
 
   .js-html-css-text-name {
@@ -753,7 +874,14 @@ ul {
     display: none;
   }
 
+  .fa {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+  }
+
   .fa:hover {
-    transform: scale(1.5);
+    transform: scale(3);
   }
 }
