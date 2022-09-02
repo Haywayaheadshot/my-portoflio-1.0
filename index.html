@@ -24,22 +24,22 @@
     <div class="landing-page-overall-container">
       <header class="landing-page-header">
         <div class="logo-div">
-          <a class="logo font">My Logo</a>
+          <a class="logo font">Abubakar Ummar</a>
         </div>
         <nav class="hamburger-icon ">
           <a href="javascript:void(0);" class="icon phone-card" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
           <ul class="nav-items-list">
-            <!-- Link all tags to their corresponding cards-->
+            
             <li class="nav-items desktop-card">
-              <a href="#" class="nav-item-text font">Portfolio</a>
+              <a href="#link-portoflio" class="nav-item-text font">Portfolio</a>
             </li>
             <li class="nav-items desktop-card">
-              <a href="#" class="nav-item-text font">About</a>
+              <a href="#link-about-me" class="nav-item-text font">About</a>
             </li>
             <li class="nav-items desktop-card">
-              <a href="#" class="nav-item-text font">Contact</a>
+              <a href="#link-contact-form" class="nav-item-text font">Contact</a>
             </li>
           </ul>
         </nav>
@@ -92,7 +92,7 @@
         <img class="desktop-card" src="images/desktop-card-1.svg" alt="Image for first desktop version card" >
       </header>
       <div class="desktop-card-grid-item">
-        <h2 class="grid-item-two-body-title font">Tonic</h2>
+        <h2 class="grid-item-two-body-title font" id="link-portoflio">Tonic</h2>
 
         <section class="subhead-title-year">
           <h4 class="grid-item-two-body-subhead font">CANOPY</h4>
@@ -282,7 +282,7 @@
     <div class="grid-item-last-two-pages desktop-grid-container">
       <div class="desktop-card-grid-item">
         <div class="about-myself-div">
-          <h2 class="text-about-myself font">About Myself</h2>
+          <h2 class="text-about-myself font" id="link-about-me">About Myself</h2>
         </div>
         <p class="landing-page-main-body-text font for-about-myself-only">
           Hello I’m a software developer! I can help you build a product ,
@@ -290,7 +290,7 @@
           you like what you see and have a project you need coded, don’t
           hestiate to contact me.
         </p>
-        <h4 class="follow font for-about-myself-only">LET'S CONNECT</h4>
+        <h4 class="follow font for-about-myself-only about-myself-connect">LET'S CONNECT</h4>
   
         <ul class="social-media-icon-container for-myself-social-media-icon">
           <li class="social-media-icon">
@@ -376,7 +376,7 @@
         with it
       </p>
 
-      <form class="form-list" action="https://formspree.io/f/xpznwngg" method="POST">
+      <form class="form-list" id="link-contact-form" action="https://formspree.io/f/xpznwngg" method="POST">
         <ul>
           <li><input class="name-email font" type="text" name="firstname" maxlength="30"
               placeholder="Please enter your name " required></li>
