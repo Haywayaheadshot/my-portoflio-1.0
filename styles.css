@@ -244,7 +244,13 @@
 }
 
 .for-myself-social-media-icon {
-  margin: 0 0 -140px 0;
+  margin: 0 0 10px 0;
+  display: flex;
+}
+
+.mobile-footer-sm-icon {
+  margin: 0 12px 0 24px;
+  padding-top: 12px;
 }
 
 .lang-div {
@@ -411,11 +417,6 @@ a:link {
 
 a:hover {
   text-decoration: none;
-  box-shadow: 0 0 5px 1px #2231d23b;
-  padding: 3px;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.55);
-  color: #2230d2;
 }
 
 a:active {
@@ -478,6 +479,8 @@ ul {
     margin-left: 2px;
     background-color: #2231d2c4;
     color: #fff;
+    padding: 3px;
+    border-radius: 8px;
   }
 
   .nav-items-list {
@@ -500,6 +503,14 @@ ul {
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.1s;
+  }
+
+  .nav-item-text:hover {
+    box-shadow: 0 0 5px 1px #2231d23b;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55);
+    color: #2231d2c4;
   }
 
   .landing-page-main-head {
@@ -532,6 +543,16 @@ ul {
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.1s;
+  }
+
+  .follow:hover {
+    transform: (1.2);
+    width: fit-content;
+    box-shadow: 0 0 5px 1px #2231d23b;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55);
+    color: #2231d2c4;
   }
 
   @keyframes left-to-right {
@@ -758,19 +779,36 @@ ul {
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.1s;
+    width: fit-content;
+    margin-left: 162px;
   }
 
   .about-myself-connect:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
-  .for-myself-social-media-icon {
-    margin: 0 0 0 -90px;
-    height: 10px;
+  .mobile-footer-sm-icon {
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+  }
+
+  .mobile-footer-sm-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px 1px #2231d23b;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+
+  .desktop-footer-sm-icon {
+    margin-left: 140px;
+    width: fit-content;
   }
 
   .get-resume-indentation {
-    margin-left: 148px;
+    margin: 20px 0 0 148px;
   }
 
   .lang-div {
@@ -814,7 +852,7 @@ ul {
   }
 
   .js-css-html-logo:hover {
-    transform: scale(1.5);
+    transform: scale(1.5) rotate(360deg);
   }
 
   .js-html-css-text-name {
@@ -882,6 +920,10 @@ ul {
   }
 
   .fa:hover {
-    transform: scale(3);
+    transform: scale(2.5);
+    box-shadow: 0 0 5px 1px #2231d23b;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55);
   }
 }
