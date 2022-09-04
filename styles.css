@@ -512,6 +512,55 @@ ul {
     color: #2231d2c4;
   }
 
+  .half-circle-animation {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 1180px;
+    height: 40px;
+    -moz-animation: rotate 2.5s linear 50ms infinite reverse;
+    -webkit-animation: rotate 2.5s linear 50ms infinite reverse;
+    -o-animation: rotate 2.5s linear 50ms infinite reverse;
+  }
+
+  .ellipse-shape-animation {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    height: 100px;
+    -moz-animation: rotate 2.5s linear 50ms infinite normal;
+    -webkit-animation: rotate 2.5s linear 50ms infinite normal;
+    -o-animation: rotate 2.5s linear 50ms infinite normal;
+  }
+
+  .rectangle-shape-animation,
+  .rectangle-shape-animation-reverse {
+    display: flex;
+    position: absolute;
+    top: 730px;
+    left: 650px;
+    -moz-animation: rotate 2.5s linear 50ms infinite normal;
+    -webkit-animation: rotate 2.5s linear 50ms infinite normal;
+    -o-animation: rotate 2.5s linear 50ms infinite normal;
+  }
+
+  .rectangle-shape-animation-reverse {
+    -moz-animation: rotate 2.5s linear 50ms infinite reverse;
+    -webkit-animation: rotate 2.5s linear 50ms infinite reverse;
+    -o-animation: rotate 2.5s linear 50ms infinite reverse;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .landing-page-main-head {
     font-style: normal;
     font-weight: 700;
