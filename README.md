@@ -32,9 +32,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Haywayaheadshot)
-- Twitter: [@twitterhandle](https://twitter.com/haywayalive)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/abubakar-ummar-4b6643245)
+- GitHub: [@Haywayaheadshot](https://github.com/Haywayaheadshot)
+- Twitter: [@haywayalive](https://twitter.com/haywayalive)
+- LinkedIn: [Abubakar Ummar](https://linkedin.com/in/abubakar-ummar-4b6643245)
 
 
 ## 🤝 Contributing
