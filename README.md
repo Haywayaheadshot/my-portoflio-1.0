@@ -8,6 +8,10 @@
 - HTML and CSS
 - Figma
 
+## Live Demo (Please click on the link below to view live demo)
+
+https://haywayaheadshot.github.io/
+
 
 ## Getting Started
 
