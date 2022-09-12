@@ -40,7 +40,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #0015d6;
 }
 
 .hamburger-icon {
@@ -83,7 +83,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #0a23ff;
   margin: 10px 24px 0 24px;
 }
 
@@ -313,7 +313,7 @@
 
 .contact-me-div {
   margin: 113.85px 0 0 0;
-  background: #6070ff;
+  background: #0018f5;
   background-image: url(images/contact-form-shapes-mobile.svg);
   background-repeat: no-repeat;
   background-position: right;
@@ -585,7 +585,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #0a23ff;
     margin: 12px 260px 0 260px;
     -webkit-transition: all 0.3s ease-in-out 0.1s;
     -moz-transition: all 0.3s ease-in-out 0.1s;
@@ -763,7 +763,7 @@ ul {
   .html-css-js-button {
     background-color: #ebebff;
     border-radius: 8px;
-    color: #6070ff;
+    color: #0019fa;
     border: 0;
     font-style: normal;
     font-weight: 500;
