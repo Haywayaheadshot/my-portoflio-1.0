@@ -28,9 +28,23 @@
           rel="noopener noreferrer" class="logo font">Abubakar Ummar</a>
         </div>
         <nav class="hamburger-icon" id="hamburger-icon-container">
-          <a href="javascript:void(0);" class="icon phone-card" id="hamburger-icon">
-            <i class="fa fa-bars fa-times" id="hamburger"></i>
+          <a  class="icon phone-card" id="hamburger-icon">
+            <i onclick="showToggleMenu()" class="fa fa-bars" id="hamburger"></i>
           </a>
+          <ul class="nav-items-list-mobile" id="nav-items-list-mobile" role="listbox" >
+            <li>
+              <i class="close-button" >❌</i>
+            </li>
+            <li class="nav-items phone-card" role="option">
+              <a href="#link-portoflio" id="menu-li-one" class="mobile-list-items font">Portfolio</a>
+            </li>
+            <li class="nav-items phone-card" role="option">
+              <a href="#link-about-me" id="menu-li-two" class="mobile-list-items font">About</a>
+            </li>
+            <li class="nav-items phone-card"  role="option">
+              <a href="#link-contact-form" id="menu-li-three" class="mobile-list-items font" >Contact</a>
+            </li>
+          </ul>
           <ul class="nav-items-list" role="listbox" >
 
             <li class="nav-items desktop-card"  role="option">
@@ -58,99 +72,98 @@
 
         <i role="none" class="follow font">LET'S CONNECT</i>
 
-        <!-- Last checkpoint -->
 
-        <ul class="social-media-icon-container">
-          <li class="social-media-icon">
-            <a href="https://twitter.com/haywayalive" target="_blank" rel="noopener noreferrer"><i
+        <ul class="social-media-icon-container" role="tree">
+          <li class="social-media-icon" role="treeitem">
+            <a role="link" href="https://twitter.com/haywayalive" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-twitter"></i></a>
           </li>
 
-          <li class="social-media-icon">
-            <a href="https://www.linkedin.com/in/abubakar-ummar-4b6643245" target="_blank" rel="noopener noreferrer"><i
+          <li class="social-media-icon" role="treeitem">
+            <a role="link" href="https://www.linkedin.com/in/abubakar-ummar-4b6643245" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-linkedin"></i></a>
           </li>
 
-          <li class="social-media-icon">
-            <a href="https://medium.com/@haywayaheadshotstrategy.fx" target="_blank" rel="noopener noreferrer"><i
+          <li class="social-media-icon" role="treeitem">
+            <a role="link" href="https://medium.com/@haywayaheadshotstrategy.fx" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-medium"></i></a>
           </li>
 
-          <li class="social-media-icon">
-            <a href="https://github.com/Haywayaheadshot" target="_blank" rel="noopener noreferrer"><i
+          <li class="social-media-icon" role="treeitem">
+            <a role="link" href="https://github.com/Haywayaheadshot" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-github"></i></a>
           </li>
 
-          <li class="social-media-icon">
-            <a href="https://angel.co/u/abubakar-ummar" target="_blank" rel="noopener noreferrer"><i
+          <li class="social-media-icon" role="treeitem">
+            <a role="link" href="https://angel.co/u/abubakar-ummar" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-angellist"></i></a>
           </li>
         </ul>
       </section>
-      <img class="desktop-card rectangle-shape-animation" src="images/Rectangle-shape.svg" alt="Rectangular Shape" />
-      <img class="desktop-card rectangle-shape-animation-reverse" src="images/Rectangle-shape.svg" alt="Rectangular Shape" />
+      <img role="img" class="desktop-card rectangle-shape-animation" src="images/Rectangle-shape.svg" alt="Rectangular Shape" />
+      <img role="img" class="desktop-card rectangle-shape-animation-reverse" src="images/Rectangle-shape.svg" alt="Rectangular Shape" />
     </div>
   </section>
   <section class="grid-item">
-    <div class="grid-item-three desktop-grid-container">
+    <div class="grid-item-three desktop-grid-container" role="presentation">
       <header class="grid-item-three-header desktop-card-grid-item">
-        <img class="phone-card" src="images/SnapshootPortfolio.svg" alt="A snapshoot Portfolio Header From Figma" />
-        <img class="desktop-card" src="images/desktop-card-1.svg" alt="Image for first desktop version card">
+        <img class="phone-card" role="img" src="images/SnapshootPortfolio.svg" alt="A snapshoot Portfolio Header From Figma" />
+        <img class="desktop-card" role="img" src="images/desktop-card-1.svg" alt="Image for first desktop version card">
       </header>
       <div class="desktop-card-grid-item">
-        <h2 class="grid-item-two-body-title font" id="link-portoflio">Tonic</h2>
+        <h2 class="grid-item-two-body-title font" id="link-portoflio" role="heading">Tonic</h2>
 
         <section class="subhead-title-year">
-          <h4 class="grid-item-two-body-subhead font">CANOPY</h4>
-          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 class="title-year font">Front End Dev</h6>
-          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 class="title-year font">2022</h6>
+          <h4 role="presentation" class="grid-item-two-body-subhead font">CANOPY</h4>
+          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 role="presentation" class="title-year font">Front End Dev</h6>
+          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 role="presentation" class="title-year font">2022</h6>
         </section>
         <p class="grid-item-two-body-text font">
           A daily selection of privately personalized reads; no accounts or
           sign-ups required.
         </p>
 
-        <ul class="js-css-html-button-ul">
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">html</button>
+        <ul class="js-css-html-button-ul" role="tree">
+          <li class="js-css-html-button-li" role="treeitem">
+            <button role="button" type="button" class="html-css-js-button font">html</button>
           </li>
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">css</button>
+          <li class="js-css-html-button-li" role="treeitem">
+            <button role="button" type="button" class="html-css-js-button font">css</button>
           </li>
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">
+          <li class="js-css-html-button-li" role="treeitem">
+            <button role="button" type="button" class="html-css-js-button font">
               javascript
             </button>
           </li>
         </ul>
 
-        <button type="button" class="footer-button">
+        <button role="button" type="button" class="footer-button">
           <i class="see-project-text font">See Project</i>
         </button>
       </div>
     </div>
   </section>
   <section class="grid-item">
-    <div class="grid-item-three desktop-card-using-flex">
+    <div class="grid-item-three desktop-card-using-flex" role="presentation">
       <header class="grid-item-three-header desktop-card-using-flex-item">
-        <img class="phone-card" src="images/SnapshootPortfoliopage2.svg"
+        <img role="img" class="phone-card" src="images/SnapshootPortfoliopage2.svg"
           alt="A snapshoot Portfolio Header From Figma" />
-        <img class="desktop-card" src="images/desktop-card-2.svg" alt="A snapshoot Portfolio Header From Figma" />
+        <img role="img" class="desktop-card" src="images/desktop-card-2.svg" alt="A snapshoot Portfolio Header From Figma" />
       </header>
       <div class="desktop-card-using-flex-item">
-        <h2 class="grid-item-two-body-title font">Multi-Post Stories</h2>
+        <h2 class="grid-item-two-body-title font" role="heading">Multi-Post Stories</h2>
 
         <div class="subhead-title-year">
-          <h4 class="grid-item-two-body-subhead font phone-card">CANOPY</h4>
-          <a href="https://www.facebook.com/HaywayaLive" target="_blank" rel="noopener noreferrer"
+          <h4 role="presentation" class="grid-item-two-body-subhead font phone-card">CANOPY</h4>
+          <a role="link" href="https://www.facebook.com/HaywayaLive" target="_blank" rel="noopener noreferrer"
             class="grid-item-two-body-subhead font desktop-card">Facebook</a>
-          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 class="title-year font phone-card">Front End Dev</h6>
-          <h6 class="title-year font desktop-card">Full Stack Dev</h6>
-          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 class="title-year font">2022</h6>
+          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 role="presentation" class="title-year font phone-card">Front End Dev</h6>
+          <h6 role="presentation" class="title-year font desktop-card">Full Stack Dev</h6>
+          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 role="presentation" class="title-year font">2022</h6>
         </div>
         <p class="grid-item-two-body-text font phone-card">
           A daily selection of privately personalized reads; no accounts or
@@ -161,23 +174,23 @@
           existing story over the course of a day without spamming their friends.
         </p>
 
-        <ul class="js-css-html-button-ul">
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">html</button>
+        <ul class="js-css-html-button-ul" role="tree">
+          <li class="js-css-html-button-li" role="treeitem">
+            <button type="button" class="html-css-js-button font" role="button">html</button>
           </li>
-          <li class="js-css-html-button-li desktop-card">
-            <button type="button" class="html-css-js-button font">Ruby on rails</button>
+          <li class="js-css-html-button-li desktop-card" role="treeitem">
+            <button type="button" class="html-css-js-button font" role="button">Ruby on rails</button>
           </li>
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">css</button>
+          <li class="js-css-html-button-li" role="treeitem">
+            <button type="button" class="html-css-js-button font" role="button">css</button>
           </li>
-          <li class="js-css-html-button-li">
-            <button type="button" class="html-css-js-button font">
+          <li class="js-css-html-button-li" role="treeitem">
+            <button type="button" class="html-css-js-button font" role="button">
               javascript
             </button>
           </li>
         </ul>
-
+<!-- last checkpoint -->
         <button type="button" class="footer-button">
           <i class="see-project-text font">See Project</i>
         </button>
