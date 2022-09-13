@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Mobile firs setup" />
+  <meta name="description" content="Abubakar Ummar Full Stack software developer Portfolio" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -15,47 +15,50 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
     rel="stylesheet" />
-  <title>Mobile Page</title>
+  <title>Abubakar Ummar Portfolio</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="grid-container">
+<body class="grid-container" id="over-all-grid">  
   <section class="grid-item">
-    <div class="landing-page-overall-container">
+    <div class="landing-page-overall-container" role="presentation">
       <header class="landing-page-header">
         <div class="logo-div">
-          <a class="logo font">Abubakar Ummar</a>
+          <a href="https://github.com/Haywayaheadshot" role="link" target="_blank" 
+          rel="noopener noreferrer" class="logo font">Abubakar Ummar</a>
         </div>
-        <nav class="hamburger-icon ">
-          <a href="javascript:void(0);" class="icon phone-card" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+        <nav class="hamburger-icon" id="hamburger-icon-container">
+          <a href="javascript:void(0);" class="icon phone-card" id="hamburger-icon">
+            <i class="fa fa-bars fa-times" id="hamburger"></i>
           </a>
-          <ul class="nav-items-list">
+          <ul class="nav-items-list" role="listbox" >
 
-            <li class="nav-items desktop-card">
+            <li class="nav-items desktop-card"  role="option">
               <a href="#link-portoflio" class="nav-item-text font">Portfolio</a>
             </li>
-            <li class="nav-items desktop-card">
+            <li class="nav-items desktop-card" role="option">
               <a href="#link-about-me" class="nav-item-text font">About</a>
             </li>
-            <li class="nav-items desktop-card">
+            <li class="nav-items desktop-card"  role="option">
               <a href="#link-contact-form" class="nav-item-text font">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
-      <img class="desktop-card half-circle-animation" src="images/Half-circle-shape.svg" alt="Half Circle Shape" />
-      <img class="desktop-card ellipse-shape-animation" src="images/Ellipse-shape.svg" alt="Ellipse Shape" />
-      <section>
-        <h1 class="landing-page-main-head font">I’m Abubakar Glad to see you!</h1>
-        <h3 class="landing-page-main-body-text font">
+      <img role="img" class="desktop-card half-circle-animation" src="images/Half-circle-shape.svg" alt="Half Circle Shape" />
+      <img role="img" class="desktop-card ellipse-shape-animation" src="images/Ellipse-shape.svg" alt="Ellipse Shape" />
+      <section role="main">
+        <h1 class="landing-page-main-head font" role="heading">I’m Abubakar Glad to see you!</h1>
+        <h3 class="landing-page-main-body-text font" role="presentation" >
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </h3>
 
-        <a class="follow font">LET'S CONNECT</a>
+        <i role="none" class="follow font">LET'S CONNECT</i>
+
+        <!-- Last checkpoint -->
 
         <ul class="social-media-icon-container">
           <li class="social-media-icon">
@@ -405,6 +408,7 @@
     </div>
 
   </section>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
