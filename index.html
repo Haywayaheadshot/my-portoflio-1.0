@@ -19,28 +19,42 @@
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="grid-container">
+<body class="grid-container" id="over-all-grid">  
   <section class="grid-item">
     <div class="landing-page-overall-container" role="presentation">
       <header class="landing-page-header">
         <div class="logo-div">
           <a href="https://github.com/Haywayaheadshot" role="link" target="_blank" 
-           rel="noopener noreferrer" class="logo font">Abubakar Ummar
+          rel="noopener noreferrer" class="logo font">Abubakar Ummar
           </a>
         </div>
-        <nav class="hamburger-icon ">
-          <a href="javascript:void(0);" class="icon phone-card" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+        <nav class="hamburger-icon" id="hamburger-icon-container">
+          <a  class="icon phone-card" id="hamburger-icon">
+            <i onclick="showToggleMenu()" class="fa fa-bars" id="hamburger"></i>
           </a>
-          <ul class="nav-items-list" role="listbox">
+          <ul class="nav-items-list-mobile" id="nav-items-list-mobile" role="listbox" >
+            <li>
+              <i class="close-button" >❌</i>
+            </li>
+            <li class="nav-items phone-card" role="option">
+              <a href="#link-portoflio" id="menu-li-one" class="mobile-list-items font">Portfolio</a>
+            </li>
+            <li class="nav-items phone-card" role="option">
+              <a href="#link-about-me" id="menu-li-two" class="mobile-list-items font">About</a>
+            </li>
+            <li class="nav-items phone-card"  role="option">
+              <a href="#link-contact-form" id="menu-li-three" class="mobile-list-items font" >Contact</a>
+            </li>
+          </ul>
+          <ul class="nav-items-list" role="listbox" >
 
-            <li class="nav-items desktop-card" role="option">
+            <li class="nav-items desktop-card"  role="option">
               <a href="#link-portoflio" class="nav-item-text font">Portfolio</a>
             </li>
             <li class="nav-items desktop-card" role="option">
               <a href="#link-about-me" class="nav-item-text font">About</a>
             </li>
-            <li class="nav-items desktop-card" role="option">
+            <li class="nav-items desktop-card"  role="option">
               <a href="#link-contact-form" class="nav-item-text font">Contact</a>
             </li>
           </ul>
@@ -50,7 +64,7 @@
       <img role="img" class="desktop-card ellipse-shape-animation" src="images/Ellipse-shape.svg" alt="Ellipse Shape" />
       <section role="main">
         <h1 class="landing-page-main-head font" role="heading">I’m Abubakar Glad to see you!</h1>
-        <h3 class="landing-page-main-body-text font" role="presentation">
+        <h3 class="landing-page-main-body-text font" role="presentation" >
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
@@ -59,9 +73,10 @@
 
         <i role="none" class="follow font">LET'S CONNECT</i>
 
+
         <ul class="social-media-icon-container" role="tree">
           <li class="social-media-icon" role="treeitem">
-            <a href="https://twitter.com/haywayalive" target="_blank" rel="noopener noreferrer"><i
+            <a role="link" href="https://twitter.com/haywayalive" target="_blank" rel="noopener noreferrer"><i
                 class="fa social-media-icon-color fa-twitter"></i></a>
           </li>
 
@@ -176,8 +191,7 @@
             </button>
           </li>
         </ul>
-
-        <button type="button" class="footer-button" role="button">
+        <button type="button" class="footer-button" role="button" >
           <i class="see-project-text font">See Project</i>
         </button>
       </div>
@@ -195,13 +209,13 @@
 
         <div class="subhead-title-year">
           <h4 role="presentation" class="grid-item-two-body-subhead font phone-card">CANOPY</h4>
-          <a role="link" href="https://www.facebook.com/HaywayaLive" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.facebook.com/HaywayaLive" target="_blank" rel="noopener noreferrer"
             class="grid-item-two-body-subhead font desktop-card">Facebook</a>
-          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 role="presentation" class="title-year font phone-card">Front End Dev</h6>
-          <h6 role="presentation" class="title-year font desktop-card">Full Stack Dev</h6>
-          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 role="presentation" class="title-year font">2022</h6>
+          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 class="title-year font phone-card">Front End Dev</h6>
+          <h6 class="title-year font desktop-card">Full Stack Dev</h6>
+          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 class="title-year font">2022</h6>
         </div>
         <p class="grid-item-two-body-text font phone-card">
           A daily selection of privately personalized reads; no accounts or
@@ -212,47 +226,47 @@
           a place to discover and enjoy 360 photos and videos on Gear VR.
         </p>
 
-        <ul class="js-css-html-button-ul" role="tree">
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">html</button>
+        <ul class="js-css-html-button-ul">
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">html</button>
           </li>
-          <li class="js-css-html-button-li desktop-card" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">Ruby on rails</button>
+          <li class="js-css-html-button-li desktop-card">
+            <button type="button" class="html-css-js-button font">Ruby on rails</button>
           </li>
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">css</button>
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">css</button>
           </li>
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">
               javascript
             </button>
           </li>
         </ul>
 
-        <button type="button" class="footer-button" role="button">
+        <button type="button" class="footer-button">
           <i class="see-project-text font">See Project</i>
         </button>
       </div>
     </div>
   </section>
   <section class="grid-item">
-    <div class="grid-item-three desktop-card-using-flex" role="presentation">
+    <div class="grid-item-three desktop-card-using-flex">
       <header class="grid-item-three-header desktop-card-using-flex-item">
-        <img role="img" class="phone-card" src="images/SnapshootPortfolio5.svg" alt="A snapshoot Portfolio Header From Figma" />
-        <img role="img" class="desktop-card" src="images/desktop-card-4.svg" alt="A snapshoot Portfolio Header From Figma" />
+        <img class="phone-card" src="images/SnapshootPortfolio5.svg" alt="A snapshoot Portfolio Header From Figma" />
+        <img class="desktop-card" src="images/desktop-card-4.svg" alt="A snapshoot Portfolio Header From Figma" />
       </header>
       <div class="desktop-card-using-flex-item">
-        <h2 role="heading" class="grid-item-two-body-title font phone-card">Multi-Post Stories</h2>
-        <h2 role="heading" class="grid-item-two-body-title font desktop-card">Uber Navigation</h2>
+        <h2 class="grid-item-two-body-title font phone-card">Multi-Post Stories</h2>
+        <h2 class="grid-item-two-body-title font desktop-card">Uber Navigation</h2>
 
         <div class="subhead-title-year">
-          <h4 role="presentation" class="grid-item-two-body-subhead font phone-card">CANOPY</h4>
-          <h4 role="presentation" class="grid-item-two-body-subhead font desktop-card">Uber</h4>
-          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 role="presentation" class="title-year font phone-card">Front End Dev</h6>
-          <h6 role="presentation" class="title-year font desktop-card">Lead Developer</h6>
-          <img role="img" class="counter-image" src="images/Counter.svg" alt="counter shape" />
-          <h6 role="presentation" class="title-year font">2022</h6>
+          <h4 class="grid-item-two-body-subhead font phone-card">CANOPY</h4>
+          <h4 class="grid-item-two-body-subhead font desktop-card">Uber</h4>
+          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 class="title-year font phone-card">Front End Dev</h6>
+          <h6 class="title-year font desktop-card">Lead Developer</h6>
+          <img class="counter-image" src="images/Counter.svg" alt="counter shape" />
+          <h6 class="title-year font">2022</h6>
         </div>
         <p class="grid-item-two-body-text font phone-card">
           A daily selection of privately personalized reads; no accounts or
@@ -263,31 +277,31 @@
           and fun by unlocking your most expensive computer: your car.
         </p>
 
-        <ul class="js-css-html-button-ul" role="tree">
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">html</button>
+        <ul class="js-css-html-button-ul">
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">html</button>
           </li>
-          <li class="js-css-html-button-li desktop-card" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">Ruby on rails</button>
+          <li class="js-css-html-button-li desktop-card">
+            <button type="button" class="html-css-js-button font">Ruby on rails</button>
           </li>
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">css</button>
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">css</button>
           </li>
-          <li class="js-css-html-button-li" role="treeitem">
-            <button type="button" class="html-css-js-button font" role="button">
+          <li class="js-css-html-button-li">
+            <button type="button" class="html-css-js-button font">
               javascript
             </button>
           </li>
         </ul>
 
-        <button type="button" class="footer-button" role="button">
+        <button type="button" class="footer-button">
           <i class="see-project-text font">See Project</i>
         </button>
       </div>
     </div>
   </section>
   <section class="grid-item">
-    <div class="grid-item-last-two-pages desktop-grid-container" role="presentation">
+    <div class="grid-item-last-two-pages desktop-grid-container">
       <div class="desktop-card-grid-item">
         <div class="about-myself-div">
           <h2 class="text-about-myself font" id="link-about-me">About Myself</h2>
@@ -298,72 +312,72 @@
           you like what you see and have a project you need coded, don’t
           hestiate to contact me.
         </p>
-        <a role="none" class="follow font about-myself-connect">LET'S CONNECT</a>
+        <h4 class="follow font about-myself-connect">LET'S CONNECT</h4>
 
-        <ul class="for-myself-social-media-icon desktop-footer-sm-icon" role="tree">
-          <li class="social-media-icon-mobile-footer" role="treeitem">
+        <ul class="for-myself-social-media-icon desktop-footer-sm-icon">
+          <li class="social-media-icon-mobile-footer">
             <a href="https://twitter.com/haywayalive" target="_blank" rel="noopener noreferrer"><img 
-              class="mobile-footer-sm-icon" src="images/Icons/twitter-icon.svg" alt="Twitter Logo" role="link"/></a>
+              class="mobile-footer-sm-icon" src="images/Icons/twitter-icon.svg" alt="Twitter Logo" /></a>
           </li>
 
-          <li class="social-media-icon-mobile-footer" role="treeitem">
+          <li class="social-media-icon-mobile-footer">
             <a href="https://medium.com/@haywayaheadshotstrategy.fx" target="_blank" rel="noopener noreferrer"><img 
-              class="mobile-footer-sm-icon" src="images/Icons/medium-icon.svg" alt="Medium Logo" role="link"/></a>
+              class="mobile-footer-sm-icon" src="images/Icons/medium-icon.svg" alt="Medium Logo" /></a>
           </li>
 
-          <li class="social-media-icon-mobile-footer" role="treeitem">
+          <li class="social-media-icon-mobile-footer">
             <a href="https://github.com/Haywayaheadshot" target="_blank" rel="noopener noreferrer"><img 
-              class="mobile-footer-sm-icon" src="images/Icons/github-icon.svg" alt="Github Logo" role="link"/></a>
+              class="mobile-footer-sm-icon" src="images/Icons/github-icon.svg" alt="Github Logo" /></a>
           </li>
 
-          <li class="social-media-icon-mobile-footer" role="treeitem">
+          <li class="social-media-icon-mobile-footer">
             <a href="https://www.linkedin.com/in/abubakar-ummar-4b6643245" target="_blank" rel="noopener noreferrer"><img 
-              class="mobile-footer-sm-icon" src="images/Icons/Linkedin-icon.svg" alt="Linkedin Logo" role="link"/></a>
+              class="mobile-footer-sm-icon" src="images/Icons/Linkedin-icon.svg" alt="Linkedin Logo" /></a>
           </li>
 
-          <li class="social-media-icon-mobile-footer" role="treeitem">
+          <li class="social-media-icon-mobile-footer">
             <a href="https://angel.co/u/abubakar-ummar" target="_blank" rel="noopener noreferrer"><img 
-              class="mobile-footer-sm-icon" src="images/Icons/peace-icon.svg" alt="Angellist Logo" role="link"/></a>
+              class="mobile-footer-sm-icon" src="images/Icons/peace-icon.svg" alt="Angellist Logo" /></a>
           </li>
         </ul>
-        <button type="button" class="footer-button get-resume-indentation" role="button">
+        <button type="button" class="footer-button get-resume-indentation">
           <i class="see-project-text font">Get my resume</i>
         </button>
       </div>
       <div class="desktop-card-grid-item">
         <div class="lang-div">
-          <b class="lang font" role="heading">Languages</b>
+          <b class="lang font">Languages</b>
           <label class="lang-list-options">
             v
           </label>
         </div>
-        <ul class="buttons-ul" role="tree">
-          <li role="treeitem">
+        <ul class="buttons-ul">
+          <li>
             <div class="js-css-html-div">
-              <img role="img" class="js-css-html-logo" src="images/Jslogo.svg" alt="Javascript logo" />
-              <button type="button" class="html-css-round-button" role="button">
+              <img class="js-css-html-logo" src="images/Jslogo.svg" alt="Javascript logo" />
+              <button type="button" class="html-css-round-button">
                 <i class="js-html-css-text-name js font">Javascript</i>
               </button>
             </div>
           </li>
-          <li role="treeitem">
+          <li>
             <div class="js-css-html-div">
-              <img role="img" class="js-css-html-logo" src="images/Htmllogo.svg" alt="HTML logo" />
-              <button type="button" class="html-css-round-button" role="button">
+              <img class="js-css-html-logo" src="images/Htmllogo.svg" alt="HTML logo" />
+              <button type="button" class="html-css-round-button">
                 <i class="js-html-css-text-name html font">HTML</i>
               </button>
             </div>
           </li>
-          <li role="treeitem">
+          <li>
             <div class="js-css-html-div">
-              <img role="img" class="js-css-html-logo" src="images/Csslogo.svg" alt="CSS logo" /><button type="button"
-                class="html-css-round-button" role="button">
+              <img class="js-css-html-logo" src="images/Csslogo.svg" alt="CSS logo" /><button type="button"
+                class="html-css-round-button">
                 <i class="js-html-css-text-name css font">CSS</i>
               </button>
             </div>
           </li>
         </ul>
-        <footer class="frameworks-skills-container" role="contentinfo">
+        <footer class="frameworks-skills-container">
           <div class="lang-div frameworks-skills-div">
             <b class="lang font frameworks-skills-text">Frameworks</b>
             <i class="lang-list-options">></i>
@@ -376,7 +390,7 @@
       </div>
 
     </div>
-    <div class="contact-me-div" role="presentation">
+    <div class="contact-me-div">
       <h2 class="contact-me-header font">Contact me</h2>
       <p class="contact-note font">
         If you have an application you are interested in developing, a feature
@@ -384,20 +398,18 @@
         with it
       </p>
 
-      <form class="form-list" role="form" id="link-contact-form" action="https://formspree.io/f/xpznwngg" method="POST">
-        <ul role="tree">
-          <li role="treeitem">
-            <input class="name-email font" type="text" name="firstname" maxlength="30" placeholder="Please enter your name " required>
+      <form class="form-list" id="link-contact-form" action="https://formspree.io/f/xpznwngg" method="POST">
+        <ul>
+          <li><input class="name-email font" type="text" name="firstname" maxlength="30"
+              placeholder="Please enter your name " required></li>
+          <li><input class="name-email font" type="email" name="email" placeholder="Please enter your email" required>
           </li>
-          <li role="treeitem">
-            <input class="name-email font" type="email" name="email" placeholder="Please enter your email" required>
-          </li>
-          <li role="treeitem">
+          <li>
             <textarea class="name-email font message" name="message" maxlength="500"
               placeholder="Write your message here" required></textarea>
           </li>
-          <li class="footer-indentation" role="treeitem">
-            <button class="footer-button for-contact-me-only" type="submit" role="button">
+          <li class="footer-indentation">
+            <button class="footer-button for-contact-me-only" type="submit">
               <i class="see-project-text font">Get In Touch</i>
             </button>
           </li>
@@ -409,6 +421,7 @@
     </div>
 
   </section>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
