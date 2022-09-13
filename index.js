@@ -18,4 +18,3 @@ listClass.forEach((element) => element.addEventListener('click',() => {
   iconId.classList.remove('block');
   navId.classList.toggle('toggle');
 }))
-
