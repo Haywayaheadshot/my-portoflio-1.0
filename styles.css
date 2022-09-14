@@ -551,7 +551,7 @@ ul {
   height: 100%;
   width: 100%;
   backdrop-filter: blur(5px);
-  top:0;
+  top: 0;
   position: fixed;
 }
 
@@ -609,7 +609,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #396DF2;
+  color: #396df2;
   width: 343px;
   height: 50px;
   margin-right: 10px;
