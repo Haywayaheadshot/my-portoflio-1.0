@@ -1053,7 +1053,7 @@ ul {
     width: 122px;
   }
 
- .js-css-html-logo {
+  .js-css-html-logo {
     padding: 12px 0 12px 12px;
     display: block;
     -webkit-transition: all 0.3s linear 0.3s;
@@ -1154,12 +1154,12 @@ ul {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.55);
   }
- 
+
   .proj-display-container {
     height: 100%;
     width: 100%;
     backdrop-filter: blur(5px);
-    top:0;
+    top: 0;
     position: fixed;
   }
 
