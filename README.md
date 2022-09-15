@@ -5,7 +5,9 @@
 
 ## Built With
 
-- HTML and CSS
+- HTML 
+- CSS
+- Javascript
 - Figma
 
 ## Live Demo
@@ -48,6 +50,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowlegement
+- Thanks to my coding partners
+- Thanks to my collaborators
 - Thanks to figma for the template
 - Thanks to Microverse for their curriculum
 - Thanks to morning session team
