@@ -1,3 +1,5 @@
+// Declaration of variables 
+
 const iconId = document.querySelector("#hamburger-icon");
 const navId = document.querySelector("#nav-items-list-mobile");
 const listClass = document.querySelectorAll(".mobile-list-items");
@@ -5,15 +7,21 @@ const closeButton = document.querySelector(".close-button");
 const hamburger = document.querySelector("#hamburger");
 const body = document.querySelector(`#over-all-grid`);
 
+// Hamburger expansion
+
 hamburger.addEventListener("click", () => {
   navId.classList.toggle("toggle");
   iconId.classList.add("block");
 });
 
+// Hamburger collapse
+
 closeButton.addEventListener("click", () => {
   iconId.classList.remove("block");
   navId.classList.toggle("toggle");
 });
+
+// Hamburger collapse after choosing list items
 
 listClass.forEach((element) =>
   element.addEventListener("click", () => {
@@ -21,6 +29,10 @@ listClass.forEach((element) =>
     navId.classList.toggle("toggle");
   })
 );
+
+// Modal Pop Up start
+
+// Create array which has objects and store pop up values into object keys
 
 const proj = [
   {
@@ -176,9 +188,13 @@ const proj = [
   },
 ];
 
+// Declare variable for class of buttons to be clicked
+
 const showCards = document.querySelectorAll(`.show-card`);
 
-// Write a function that creates html containing what to be shown
+// Write a function that creates html containing what to be shown and append it
+// Pass an argument through it and call the object keys written above at required points
+
 function openCards(lit) {
   let sect = document.createElement("section");
   sect.innerHTML = `<div class='proj-display-container' id='modal-pop'>
@@ -300,5 +316,32 @@ for (let i = 0; i < proj.length; i++) {
 
 function closeModalPop() {
   document.getElementById("modal-pop").classList.replace("proj-display-container", "remove");
+
+  // When this function is called you need to reload page to remove the error on the modal not popping up again
   window.location.reload();
 }
+
+// Modal Pop Up end
+
+// Form Validation start
+
+// Declare form variables
+const contactForm = document.querySelector('.contact-me-form');
+const email = document.querySelector('#input-email');
+const submitForm = document.querySelector('#form-submit');
+const regEx = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+
+submitForm.addEventListener ('click', (bad) => {
+  let emailAddress = email.value;
+  const displayError = document.querySelector('.display-error');
+  //  if emailAd does not match regex
+    // stop event from happening
+  if (!regEx.test(emailAddress)){
+    bad.preventDefault();
+    // call an error function
+    displayError.style.display = 'block';
+  } else if (regEx.test(emailAddress)){
+    // remove error
+    displayError.style.display = 'none';
+  }
+});
