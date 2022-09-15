@@ -469,7 +469,7 @@ html {
 }
 
 .display-error {
-  display:none;
+  display: none;
   border: 2px solid rgba(255, 0, 0, 0.67);
 	margin: 10px auto;
 	padding: 10px 5px 10px 5px;
