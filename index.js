@@ -329,19 +329,43 @@ function closeModalPop() {
 const contactForm = document.querySelector('.contact-me-form');
 const email = document.querySelector('#input-email');
 const submitForm = document.querySelector('#form-submit');
+const textArea = document.querySelector('#text-area-input');
+const fullName = document.querySelector('#full-name-input')
 const regEx = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
 submitForm.addEventListener ('click', (bad) => {
   let emailAddress = email.value;
   const displayError = document.querySelector('.display-error');
   //  if emailAd does not match regex
-    // stop event from happening
   if (!regEx.test(emailAddress)){
+    // stop event from happening
     bad.preventDefault();
-    // call an error function
+    // display an error message
     displayError.style.display = 'block';
   } else if (regEx.test(emailAddress)){
-    // remove error
+    // remove error message
     displayError.style.display = 'none';
   }
 });
+
+// Form validation ends
+
+// local storage starts 
+
+contactForm.addEventListener('input',() => {
+  const formInputKeysAndValues = {
+    nameValue: fullName.value,
+    emailValue: email.value,
+    textAreaValue: textArea.value,
+  }
+  localStorage.setItem('userFormDataCollected', JSON.stringify(formInputKeysAndValues));
+});
+
+let getData = localStorage.getItem('userFormDataCollected');
+getData = JSON.parse(getData);
+
+if (getData != null){
+  fullName.value = getData.nameValue;
+  email.value = getData.emailValue;
+  textArea.value = getData.textAreaValue;
+}
