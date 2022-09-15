@@ -471,11 +471,11 @@ html {
 .display-error {
   display: none;
   border: 2px solid rgba(255, 0, 0, 0.67);
-	margin: 10px auto;
-	padding: 10px 5px 10px 5px;
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 5px 10px 5px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  max-width: 300px;
   background-color: #fff;
   color: red;
   border-radius: 10px;
