@@ -10,10 +10,6 @@
 - Javascript
 - Figma
 
-## Live Demo
-
-https://haywayaheadshot.github.io/
-
 
 ## Getting Started
 
