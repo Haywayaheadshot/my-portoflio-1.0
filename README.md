@@ -21,6 +21,8 @@ To get a local copy up and running follow these simple example steps.
 - A text editor or terminal
 - A web browser to view output
 
+### Live Demo
+Click [here](https://haywayaheadshot.github.io/my-portoflio/) to view live demo.
 
 ### Setup
 - To clone the repository run this command git clone https://github.com/Haywayaheadshot/my-portoflio.git
