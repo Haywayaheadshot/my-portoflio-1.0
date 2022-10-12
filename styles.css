@@ -676,6 +676,16 @@ ul {
   display: none;
 }
 
+.actual-project-image {
+  max-width: 300px;
+  min-height: 250px;
+}
+
+.modal-actual-project-image {
+  max-width: 100%;
+  min-height: 100%;
+}
+
 @media (min-width: 768px) {
   .grid-container {
     background-color: #e5e5e5;
@@ -1266,5 +1276,15 @@ ul {
 
   .pop-footer-see-project-text {
     width: 150px;
+  }
+
+  .actual-project-image {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .modal-actual-project-image {
+    max-width: 100%;
+    min-height: 100%;
   }
 }
