@@ -37,29 +37,22 @@ listClass.forEach((element) =>
 const proj = [
   {
     id: `card-1`,
-    mobileHeading: `Tonic`,
-    desktopHeading: `Tonic`,
-    mobileSubHead: [`Canopy`, `Front End Dev`, 2022],
-    desktopSubHead: [`Canopy`, `Front End Dev`, 2022],
-    mobileCardImage: `./images/SnapshootPortfolio.svg`,
-    desktopCardImage: `./images/desktop-card-1.svg`,
-    mobileBodyText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it to make a type 
-      specimen book.It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essent'`,
-    desktopBodyText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the 
-      releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the 
-      releorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s with the releaLorem 
-      Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    mobileHeading: `Music Concert Webpage`,
+    desktopHeading: `Music Concert Webpage`,
+    mobileSubHead: [`Microverse`, `Front End Dev`, 2022],
+    desktopSubHead: [`Microverse`, `Front End Dev`, 2022],
+    mobileCardImage: `./images/song-kick-portfoli0-desktop.png`,
+    desktopCardImage: `./images/song-kick-portfoli0-desktop.png`,
+    mobileBodyText: `This project is about setting up a website with two webpages. Homepage and About page.
+    These pages include both mobile and desktop versions.
+    The "Featured Artist section" of the homepage of this website was dynamically made with javascript.
+    The "Last two concerts section" in the about page has a really cool feature when you hover or leave your cursor on the images.
+    It gives a concert vibe.`,
+    desktopBodyText: `This project is about setting up a website with two webpages. Homepage and About page.
+    These pages include both mobile and desktop versions.
+    The "Featured Artist section" of the homepage of this website was dynamically made with javascript.
+    The "Last two concerts section" in the about page has a really cool feature when you hover or leave your cursor on the images.
+    It gives a concert vibe.`,
     mobileSkills: [`html`, `css`, `javascript`],
     desktopSkills: [
       `html`,
@@ -69,35 +62,26 @@ const proj = [
       `ruby`,
       `Bootstraps`,
     ],
-    liveLink: `https://haywayaheadshot.github.io/`,
-    sourceLink: `https://github.com/Haywayaheadshot/my-portoflio`,
+    liveLink: `https://haywayaheadshot.github.io/songkick-CCGlobal-web-design/`,
+    sourceLink: `https://github.com/Haywayaheadshot/songkick-CCGlobal-web-design`,
   },
 
   {
     id: `card-2`,
-    mobileHeading: `Multi Post Stories`,
-    desktopHeading: `Mulit Post Stories`,
-    mobileSubHead: [`Canopy`, `Front End Dev`, 2022],
-    desktopSubHead: [`Facebook`, `FullStack Dev`, 2022],
-    mobileCardImage: `./images/SnapshootPortfoliopage2.svg`,
-    desktopCardImage: `./images/desktop-card-2.svg`,
-    mobileBodyText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it to make a type 
-      specimen book.It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essent'`,
-    desktopBodyText: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the 
-      releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the 
-      releorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s with the releaLorem 
-      Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    mobileHeading: `To-Do List`,
+    desktopHeading: `To-Do List`,
+    mobileSubHead: [`Microverse`, `Front End Dev`, 2022],
+    desktopSubHead: [`Microverse`, `FullStack Dev`, 2022],
+    mobileCardImage: `./images/To-do-list-cropped.png`,
+    desktopCardImage: `./images/To-do-list-cropped.png`,
+    mobileBodyText: ` This is an app that helps people keep track of all their activities for a period of time.
+    They can be able to see what activities they have performed, 
+    yet to perform and all activites whether performed or not. 
+    Provided the activity has been input into the app.`,
+    desktopBodyText: ` This is an app that helps people keep track of all their activities for a period of time.
+    They can be able to see what activities they have performed, 
+    yet to perform and all activites whether performed or not. 
+    Provided the activity has been input into the app.`,
     mobileSkills: [`html`, `css`, `javascript`],
     desktopSkills: [
       `html`,
@@ -107,8 +91,8 @@ const proj = [
       `ruby`,
       `Bootstraps`,
     ],
-    liveLink: `https://haywayaheadshot.github.io/`,
-    sourceLink: `https://github.com/Haywayaheadshot/my-portoflio`,
+    liveLink: `https://haywayaheadshot.github.io/to-do-list-with-webpack-es6/`,
+    sourceLink: `https://github.com/Haywayaheadshot/to-do-list-with-webpack-es6`,
   },
 
   {
@@ -200,8 +184,8 @@ function openCards(lit) {
   sect.innerHTML = `<div class='proj-display-container' id='modal-pop'>
   <section class='proj-display'>
    <header class='modal-pop-header'>
-   <h2 class="grid-item-two-body-title font pop-mobile-heading-text phone-card" role="heading">${proj[lit].mobileHeading}</h2>
-   <h2 class="grid-item-two-body-title font desktop-card" role="heading">${proj[lit].desktopHeading}</h2>
+   <h2 class="grid-item-two-body-title font pop-mobile-heading-text phone-card modal-actual-project-image" role="heading">${proj[lit].mobileHeading}</h2>
+   <h2 class="grid-item-two-body-title font desktop-card actual-project-image" role="heading">${proj[lit].desktopHeading}</h2>
    <i class="close-modal-pop" onclick="closeModalPop()">❌</i>
    </header>
 
